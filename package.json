@@ -1,0 +1,52 @@
+{
+  "name": "jest-json-schema-matcher",
+  "version": "1.0.0",
+  "description": "jest json schema matcher extension",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags",
+    "test": "jest",
+    "build": "tsc",
+    "lint": "tslint -p . --fix 'src/**/*.{ts,tsx}'",
+    "formatter": "tsfmt -r --useTsfmt ./tsfmt.json --useTslint ./tslint.json --useTsconfig ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteffenHummel/jest-json-schema-matcher.git"
+  },
+  "keywords": [
+    "jest",
+    "json",
+    "schema",
+    "matcher",
+    "extension"
+  ],
+  "author": "Steffen Hummel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SteffenHummel/jest-json-schema-matcher/issues"
+  },
+  "homepage": "https://github.com/SteffenHummel/jest-json-schema-matcher#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-sonarts": "^1.8.0",
+    "typescript": "^3.2.2",
+    "typescript-formatter": "^7.2.2"
+  },
+  "dependencies": {
+    "jsonschema": "^1.2.4"
+  }
+}
