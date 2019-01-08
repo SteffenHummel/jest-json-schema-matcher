@@ -1,0 +1,10 @@
+{
+  "extends": ["tslint-config-airbnb", "tslint-sonarts"],
+  "rules": {
+    "import-name": false,
+    "semicolon": [true, "never"],
+    "max-line-length": [true, 300],
+    "no-eval": true,
+    "no-default-export": true
+  }
+}
