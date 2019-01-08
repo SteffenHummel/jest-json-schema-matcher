@@ -14,6 +14,7 @@
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags",
     "test": "jest",
+    "testWithCoverage": "jest --coverage",
     "build": "tsc",
     "lint": "tslint -p . --fix 'src/**/*.{ts,tsx}'",
     "formatter": "tsfmt -r --useTsfmt ./tsfmt.json --useTslint ./tslint.json --useTsconfig ./tsconfig.json"
