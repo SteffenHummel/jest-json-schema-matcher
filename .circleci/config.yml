@@ -35,10 +35,8 @@ jobs:
         
       # run tests!
       - run: yarn testWithCoverage 
-
 workflows:
-  version: 2
-  test-deploy:
+  test workflow:
     jobs:
-      - test:
-
+    - test
+  version: 2
