@@ -17,6 +17,7 @@
     "testWithCoverage": "jest --coverage",
     "build": "tsc",
     "lint": "tslint -p . --fix 'src/**/*.{ts,tsx}'",
+    "codecov": "codecov",
     "formatter": "tsfmt -r --useTsfmt ./tsfmt.json --useTslint ./tslint.json --useTsconfig ./tsconfig.json"
   },
   "repository": {
@@ -38,6 +39,7 @@
   "homepage": "https://github.com/SteffenHummel/jest-json-schema-matcher#readme",
   "devDependencies": {
     "@types/jest": "^23.3.12",
+    "codecov": "^3.1.0",
     "jest": "^23.6.0",
     "ts-jest": "^23.10.5",
     "tslint": "^5.12.0",
