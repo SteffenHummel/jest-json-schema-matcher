@@ -1,6 +1,6 @@
 # jest-json-schema-matcher
 
-![](https://img.shields.io/npm/v/jest-json-schema-matcher.svg)
+[![](https://img.shields.io/npm/v/jest-json-schema-matcher.svg)](https://www.npmjs.com/package/jest-json-schema-matcher)
 
 A very simple JSON Schema matcher for <a href="https://github.com/facebook/jest">jest</a>
 
