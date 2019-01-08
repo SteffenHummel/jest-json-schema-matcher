@@ -1,6 +1,10 @@
 # jest-json-schema-matcher
 
-[![](https://img.shields.io/npm/v/jest-json-schema-matcher.svg)](https://www.npmjs.com/package/jest-json-schema-matcher)
+[![](https://img.shields.io/npm/v/jest-json-schema-matcher.svg)](https://www.npmjs.com/package/jest-json-schema-matcher) 
+[![](https://img.shields.io/circleci/project/github/SteffenHummel/jest-json-schema-matcher.svg)](https://circleci.com/gh/SteffenHummel/jest-json-schema-matcher)
+![](https://img.shields.io/codecov/c/github/steffenhummel/jest-json-schema-matcher.svg)
+ [![](https://img.shields.io/github/license/steffenhummel/jest-json-schema-matcher.svg)](https://github.com/SteffenHummel/jest-json-schema-matcher/blob/master/LICENSE) 
+
 
 A very simple JSON Schema matcher for <a href="https://github.com/facebook/jest">jest</a>
 
