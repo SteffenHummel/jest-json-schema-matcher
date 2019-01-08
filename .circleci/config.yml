@@ -35,7 +35,7 @@ jobs:
         
       # run tests!
       - run: yarn testWithCoverage 
-      - run: yarn codecov -t {CODECOV_TOKEN}
+      - run: yarn codecov -t ${CODECOV_TOKEN}
 workflows:
   test workflow:
     jobs:
